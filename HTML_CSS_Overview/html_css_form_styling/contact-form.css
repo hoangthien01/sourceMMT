@@ -1,0 +1,66 @@
+.body {
+  background-color: #f2f2f2;
+  color: lightgray;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+/* set style for contact-form */
+.contact-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(231, 231, 231);
+  justify-content: center;
+  color: rgb(142, 140, 140);
+}
+
+/* set style for form-control */
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+label {
+  text-align: center;
+}
+
+/* set style for input */
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  border: 0.5px solid #ccc;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+textarea {
+  outline: none;
+  border: 0.5px solid #ccc;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+input[type="submit"] {
+  outline: none;
+  border: 0.5px solid #ccc;
+  width: 60%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+  background-color: rgb(203, 91, 91);
+  color: #f2f2f2;
+}

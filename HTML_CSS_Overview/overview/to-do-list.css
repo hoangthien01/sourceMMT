@@ -1,0 +1,18 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.my-list {
+  background-color: pink;
+  padding: 8px 24px;
+  width: 500px;
+  text-size-adjust: 30px;
+  border: 1px solid palevioletred;
+  box-shadow: 0 0 10px 2px palevioletred;
+}
+.my-list ol {
+  margin: 12px;
+}
+.my-list p,
+h1 {
+  text-align: center;
+}

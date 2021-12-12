@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact-form.css" />
+  </head>
+  <body>
+    <div class="contact-form">
+      <h1>Contact Form</h1>
+      <h3>Please fill all the text in the fields</h3>
+      <hr>
+      <form action="contact-form.php" method="post">
+        <div class="form-control">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Full Name"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Valid Email Address"
+          />
+        </div>
+        <div class="form-control">
+          <label for="subject">Subject: </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Job Inquiry"
+          />
+        </div>
+        <div class="form-control">
+          <label for="message">Message: </label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message to Us"
+          ></textarea>
+        </div>
+        <div class="form-control">
+          <input type="submit" name="submit" value="Send"></input>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

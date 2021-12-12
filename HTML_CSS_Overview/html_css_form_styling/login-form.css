@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,200;1,700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+  color: rgb(116, 155, 183);
+  font-size: 20px;
+}
+
+.img-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.img-container img {
+  width: 123px;
+  height: 123px;
+  border: 5px solid rgb(116, 155, 183);
+}
+.form-container {
+  width: 470px;
+  margin: 50px auto 0;
+  padding: 50px 60px 70px 60px;
+  background-color: lightblue;
+}
+input[type="text"],
+input[type="password"] {
+  outline: none;
+  border: none;
+  background-color: rgb(219, 235, 241);
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 30px;
+  border-radius: 5%;
+  color: rgb(190, 201, 215);
+  font-size: 1.1em;
+  width: 90%;
+}
+input[type="submit"] {
+  outline: none;
+  border: none;
+  background-color: rgb(83, 111, 145);
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 5%;
+  color: rgb(219, 235, 241);
+  font-size: 1.6em;
+  width: 100%;
+}
+.main .form-container .form-group .fa {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+}

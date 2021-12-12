@@ -1,0 +1,25 @@
+body {
+  background-color: lightgray;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: #444;
+}
+nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  padding: 20px;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}

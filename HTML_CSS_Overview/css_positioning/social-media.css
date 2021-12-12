@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.list-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.child-container {
+  margin-right: 50px;
+}
+.child-container h2 {
+  margin-left: 15;
+  text-align: left;
+}
+.list-child {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.list-child li {
+  margin-bottom: 5px;
+}
+
+.list-child a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(150, 130, 107);
+}
+.fab {
+  color: pink;
+}
+.fab:hover {
+  color: white;
+}
